@@ -1,5 +1,11 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .container-fluid {
-  height: 350px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
 }
 
 .branco {
@@ -16,4 +22,20 @@
 
 .bg-light {
   border-bottom: 2px solid #24313e;
+}
+
+.tamanho-svg {
+  width: 390px;
+  height: 250px;
+  margin: 2% auto;
+}
+
+.cabecalho {
+  margin: 10px auto;
+  font-size: 2rem;
+}
+
+.cabecalho-verde {
+  color: white;
+  margin: 10px auto;
 }

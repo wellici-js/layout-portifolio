@@ -10,6 +10,9 @@ function App () {
     <NavBar/>
     <Section
       color="verde"
+      img={require('../img/1418949122.svg')}
+      tamanho="tamanho-svg"
+      titulo="Nós construímos WireFrames impressionantes"
     />
     <Section
       color="branco"
